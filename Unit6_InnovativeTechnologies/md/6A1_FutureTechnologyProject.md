@@ -2,7 +2,7 @@
 
 <!-- ######################################### -->
 
-<div class="mickel">
+<span class="mickel">
 
 #Future Technology Project
 
@@ -150,4 +150,4 @@ Over the course of this module and this project, you will learn:
 <iframe src="../assets/footer.html" width=100% height=60></iframe>
 
 
-</div>
+</span>
