@@ -137,7 +137,7 @@ table tr:nth-child(2n) {
 @media screen and (min-width: 914px) {
     body {
         width: 854px;
-        margin:0 auto;
+        margin:220 auto;
     }
 }
 @media print {
