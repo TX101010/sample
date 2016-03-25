@@ -4,7 +4,6 @@ body {
 	font-size: 14px;
 	line-height: 1.5;
 	margin-left: 250px;
-	margin-right: 250px;
 	padding: 0px;
 	-webkit-print-color-adjust:exact;
 }
@@ -20,7 +19,7 @@ h1 {
 	line-height: 1.2;
 	background-color: #ff0000;
 	color: #ffffff;
-	padding: 0px 555px 0px 5px;
+	padding: 0px 5px 0px 5px;
 	margin-top: 0px;
 }
 
@@ -29,7 +28,7 @@ h2 {
 	background: #eeeeee;
 	border-bottom: 1px solid;
 	line-height: 1.2;
-	margin: 15px 555px 0px 5px;
+	margin: 15px 5px 0px 5px;
 	padding: 0px 5px 0px 5px;
 }
 
@@ -44,7 +43,7 @@ hr {
 	background-color: #cccccc;
     margin-top: 30px;
     margin-bottom: 10;
-    margin-left: 510px;
+    margin-left: 10px;
     margin-right: 10px;
 }
 
@@ -137,7 +136,7 @@ table tr:nth-child(2n) {
 @media screen and (min-width: 914px) {
     body {
         width: 854px;
-        margin:220 auto;
+//        margin:0 auto;
     }
 }
 @media print {
