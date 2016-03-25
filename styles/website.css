@@ -17,7 +17,7 @@ h1 {
 	font-size: 36px;
 	letter-spacing: 1px;
 	line-height: 1.2;
-	background-color: #0000ff;
+	background-color: #000000;
 	color: #ffffff;
 	padding: 0px 5px 0px 5px;
 	margin-top: 0px;
@@ -134,7 +134,7 @@ table tr:nth-child(2n) {
 /*----------------------------------------------------- Media Controls ---*/
 
 @media screen and (min-width: 914px) {
-    xbody {
+    body {
         width: 854px;
         margin:0 auto;
     }
