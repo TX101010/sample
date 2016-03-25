@@ -142,7 +142,7 @@ table tr:nth-child(2n) {
 }
 @media print {
 	body {
-		margin: 0px 50px 0px 50px;
+		margin: 0px 550px 0px 50px;
 	}
 	table, pre {
 		page-break-inside: avoid;
