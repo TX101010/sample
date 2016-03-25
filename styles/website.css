@@ -3,13 +3,13 @@ body {
 	font-weight: 100;
 	font-size: 14px;
 	line-height: 1.5;
-	margin-left: 250px;
+	margin: 0px;
 	padding: 0px;
 	-webkit-print-color-adjust:exact;
 }
 
 p {
-	margin: 0px 510px 10px 10px;
+	margin: 0px 10px 10px 10px;
 }
 
 h1 {
@@ -17,7 +17,7 @@ h1 {
 	font-size: 36px;
 	letter-spacing: 1px;
 	line-height: 1.2;
-	background-color: #ff0000;
+	background-color: #00ff00;
 	color: #ffffff;
 	padding: 0px 5px 0px 5px;
 	margin-top: 0px;
@@ -136,12 +136,12 @@ table tr:nth-child(2n) {
 @media screen and (min-width: 914px) {
     body {
         width: 854px;
-//        margin:0 auto;
+        margin:0 auto;
     }
 }
 @media print {
 	body {
-		margin: 0px 550px 0px 50px;
+		margin: 0px 50px 0px 50px;
 	}
 	table, pre {
 		page-break-inside: avoid;
