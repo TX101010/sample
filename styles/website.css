@@ -196,6 +196,7 @@ table tr:nth-child(2n) {
 }
 
 .cBox {
+	font-family: "Calibri", sans-serif; 
 	line-height: 1.2;
 	width: 80%;
 	display: block;
