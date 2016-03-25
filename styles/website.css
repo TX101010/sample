@@ -1,5 +1,5 @@
 body {
-	font-family: "Arial", sans-serif; 
+	font-family: "Calibri", sans-serif; 
 	font-weight: 100;
 	font-size: 14px;
 	line-height: 1.5;
@@ -10,7 +10,7 @@ body {
 }
 
 p {
-	margin: 0px 10px 10px 10px;
+	margin: 0px 510px 10px 10px;
 }
 
 h1 {
@@ -20,7 +20,7 @@ h1 {
 	line-height: 1.2;
 	background-color: #000000;
 	color: #ffffff;
-	padding: 0px 5px 0px 5px;
+	padding: 0px 555px 0px 5px;
 	margin-top: 0px;
 }
 
@@ -29,7 +29,7 @@ h2 {
 	background: #eeeeee;
 	border-bottom: 1px solid;
 	line-height: 1.2;
-	margin: 15px 5px 0px 5px;
+	margin: 15px 555px 0px 5px;
 	padding: 0px 5px 0px 5px;
 }
 
@@ -44,7 +44,7 @@ hr {
 	background-color: #cccccc;
     margin-top: 30px;
     margin-bottom: 10;
-    margin-left: 10px;
+    margin-left: 510px;
     margin-right: 10px;
 }
 
