@@ -8,16 +8,6 @@ body {
 	-webkit-print-color-adjust:exact;
 }
 
-.mickel {
-	font-family: "Calibri", sans-serif; 
-	font-weight: 100;
-	font-size: 14px;
-	line-height: 1.5;
-	margin: 0px;
-	padding: 0px;
-	-webkit-print-color-adjust:exact;
-}
-
 p {
 	margin: 0px 10px 10px 10px;
 }
