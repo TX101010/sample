@@ -126,6 +126,7 @@ table {
 	border: 1px solid #666666;
 }
 table tr th {
+	font-family: "Calibri", sans-serif; 
 	font-weight: bold;
 	font-size: 20px;
 	color: #ffffff;
@@ -135,6 +136,7 @@ table tr th {
 	vertical-align: bottom;
 }
 table tr td {
+	font-family: "Calibri", sans-serif; 
 	border: 1px solid #cccccc;
 	margin: 0px;
 	padding: 5px 10px;
