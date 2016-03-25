@@ -144,6 +144,9 @@ table tr:nth-child(2n) {
 	background-color: #f8f8f8;
 }
 
+ol, ul {
+	font-family: "Calibri", sans-serif; 
+}
 
 /*----------------------------------------------------- Media Controls ---*/
 
