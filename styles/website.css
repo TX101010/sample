@@ -134,7 +134,7 @@ table tr:nth-child(2n) {
 /*----------------------------------------------------- Media Controls ---*/
 
 @media screen and (min-width: 914px) {
-    body {
+    xbody {
         width: 854px;
         margin:0 auto;
     }
