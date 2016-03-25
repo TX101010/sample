@@ -2,7 +2,7 @@
 
 <!-- ######################################### -->
 
-...insert class="mickel" here...
+<div class="mickel">
 
 #Future Technology Project
 
