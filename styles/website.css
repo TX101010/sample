@@ -1,8 +1,8 @@
 body {
 	font-family: "Calibri", sans-serif; 
-	font-weight: 100;
+    line-height: 1.5;
+    font-weight: 100;
 	font-size: 14px;
-	line-height: 1.5;
 	margin: 0px;
 	padding: 0px;
 	-webkit-print-color-adjust:exact;
@@ -10,6 +10,8 @@ body {
 
 p {
 	font-family: "Calibri", sans-serif; 
+	line-height: 1.5;
+    font-weight: 100;
 	margin: 0px 10px 10px 10px;
 }
 
@@ -27,7 +29,7 @@ h1 {
 
 h2 {
 	font-family: "Calibri", sans-serif; 
-	font-size: 18px;
+    font-size: 18px;
 	background: #eeeeee;
 	border-bottom: 1px solid;
 	line-height: 1.2;
@@ -37,10 +39,12 @@ h2 {
 
 h3 {
 	font-family: "Calibri", sans-serif; 
+	line-height: 1.5;
 	font-size: 18px;
 }
 
 hr {
+	line-height: 1.5;
 	display: block;
 	border: 0;
 	height: 1px;
