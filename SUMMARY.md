@@ -2,5 +2,5 @@
 
 * [Introduction](README.md)
 * Unit 6: Innovative Technologies
-   * [Future Technology Project](6A1_FutureTechnologyProject.md)
+   * [Future Technology Project](6a1futuretechnologyproject.md)
 
