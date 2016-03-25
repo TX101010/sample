@@ -1,1 +1,258 @@
-/* CSS for epub */
+body {
+	font-family: "Calibri", sans-serif; 
+	font-weight: 100;
+	font-size: 14px;
+	line-height: 1.5;
+	margin: 0px;
+	padding: 0px;
+	-webkit-print-color-adjust:exact;
+}
+
+p {
+	margin: 0px 10px 10px 10px;
+}
+
+h1 {
+	font-weight: 900;
+	font-size: 36px;
+	letter-spacing: 1px;
+	line-height: 1.2;
+	background-color: #000000;
+	color: #ffffff;
+	padding: 0px 5px 0px 5px;
+	margin-top: 0px;
+}
+
+h2 {
+	font-size: 18px;
+	background: #eeeeee;
+	border-bottom: 1px solid;
+	line-height: 1.2;
+	margin: 15px 5px 0px 5px;
+	padding: 0px 5px 0px 5px;
+}
+
+h3 {
+	font-size: 18px;
+}
+
+hr {
+	display: block;
+	border: 0;
+	height: 1px;
+	background-color: #cccccc;
+    margin-top: 30px;
+    margin-bottom: 10;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+a {
+	background-color: #eeeeff;
+}
+
+code {
+	color: #cc0000;
+}
+
+p code, li code, td code {
+	padding: 1px 4px;
+	border-radius: 3px;
+	background-color: #fffafa;
+	border: 1px solid #ffcccc;
+	
+}
+
+pre {
+	line-height: 1.2;
+	max-width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+	padding: 3px 5px;
+	border-radius: 3px;
+	background-color: #fffafa;
+	border: 1px solid #ffcccc;
+	color: #cc0000;
+}
+
+p textarea {
+	height: 100px;
+	width: 80%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 3px 5px;
+	font-family: "Calibri", sans-serif; 
+	font-weight: 100;
+	font-size: 16px;
+	line-height: 1.5;
+	border: none;
+	border-radius: 3px;
+	border: 1px solid #cccccc;
+	background-color: #fafaff;
+}
+
+img {
+	max-width: 80%;
+}
+
+iframe {
+	border: 0px;
+	margin-bottom: -7px;
+}
+
+table {
+	width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+	padding: 0px;
+	border-collapse: collapse;
+	border: 1px solid #666666;
+}
+table tr th {
+	font-weight: bold;
+	font-size: 20px;
+	color: #ffffff;
+	margin: 0px;
+	background-color: #999999;
+	border: 1px solid #000000;
+	vertical-align: bottom;
+}
+table tr td {
+	border: 1px solid #cccccc;
+	margin: 0px;
+	padding: 5px 10px;
+	vertical-align: middle;
+}
+table tr:nth-child(2n) {
+	background-color: #f8f8f8;
+}
+
+
+/*----------------------------------------------------- Media Controls ---*/
+
+@media screen and (min-width: 914px) {
+    body {
+        width: 854px;
+        margin:0 auto;
+    }
+}
+@media print {
+	body {
+		margin: 0px 50px 0px 50px;
+	}
+	table, pre {
+		page-break-inside: avoid;
+	}
+	pre {
+		word-wrap: break-word;
+	}
+}
+
+
+/*----------------------------------------------------- Custom Styles ---*/
+.rImg img {
+	margin: 4px 0px 4px 10px;
+	float: right;
+	border: 1px solid #000000;
+}
+
+.cImg img {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.clear {
+	clear: both;
+}
+
+.w100 img { width: 100px; }
+.w200 img { width: 200px; }
+.w300 img { width: 300px; }
+
+.video {
+	border: 2px solid #000000;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+}
+
+.cBox {
+	line-height: 1.2;
+	width: 80%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	padding: 5px 5px;
+	border-radius: 3px;
+	border: 1px solid #cccccc;
+}
+.cBox h2{
+	margin: 0px;
+}
+
+
+
+.shortAnswer {
+	line-height: 2.0;
+	background-color: #fafaff;
+	margin-top: 0px;
+	padding: 0px 5px;
+}
+.shortAnswer input {
+	font-size: 16px;
+	border: none;
+	background-color: #fafaff;
+	font-family: "Calibri", sans-serif; 
+	font-weight: 100;
+	font-size: 16px;
+}
+
+.multchoice {
+	line-height: 1.5;
+	background-color: #fafafa;
+}
+.multchoice ol {
+    list-style-type: upper-alpha;
+    list-style-position: outside; 
+    margin-left: 1em; 
+    padding-left: 5px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.multchoice li {
+    padding-left: 3px;
+    padding-bottom: 3px;
+}
+
+
+.task {
+	background-color: #eeeeee;
+	font-weight: 700;
+	font-size: 24px;
+	font-style: italic;
+	color: #666666;
+}
+
+.quote {
+	background-color: #fcfcfc;
+	font-weight: 100;
+	font-style: italic;
+	font-size: 16px;
+	color: #999999;
+
+}
+
+
+
+
+
+
+
+
